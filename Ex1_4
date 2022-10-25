@@ -1,0 +1,22 @@
+def Ex1_4(day_num):
+     '''
+ (int) -> string
+       you can write a number from 1 to 7 and it will give you the corresponding day of the week
+       note : if it's not from the range of numbers it will give you an Eror
+       '''
+     if day_num == 1:
+         print("monday")
+     elif day_num == 2:
+          print("Tuesday")
+     elif day_num == 3:
+          print("Wednesday")
+     elif day_num == 4:
+          print("Thursday")
+     elif day_num == 5:
+          print("Friday")
+     elif day_num == 6:
+          print("Saturday")
+     elif day_num == 7:
+          print("Sunday")
+     else:
+          print("Error")

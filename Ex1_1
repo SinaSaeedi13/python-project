@@ -1,0 +1,12 @@
+def Ex1_1(printed_num):
+    '''
+    (float)-->float
+    in this function the number that has been written will be Add up to one
+    example :
+    1 ---> 2
+    -1 ---> 0
+    '''
+
+    new_num=printed_num+1
+    return(new_num)
+ 

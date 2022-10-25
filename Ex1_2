@@ -1,0 +1,8 @@
+def Ex1_2(base,height):
+    '''
+  (float,float) ---> float
+  Write two numbers one as base and the other one as height of a tringle.
+  The function will take these two numbers and try to find the area of that tringle.
+    '''
+    Area_Of_Tringle=(base*height)/2
+    return Area_Of_Tringle

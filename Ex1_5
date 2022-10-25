@@ -1,0 +1,21 @@
+def Ex1_6(age_num):
+     '''
+  (float)-->string
+ 
+  by writing someone's age in this function you can indicate whether they are infant,child,teen,or adult
+  the function works like this:
+  x<1 --> infant
+  1 <= x < 13 --> child
+  13 <= x < 20 --> teenager
+  20 <= x --> adult
+     '''
+     if 0 < age_num < 1 :
+         print("infant")
+     elif 1 <= age_num < 13 :
+         print("child")
+     elif 13 <= age_num < 20 :
+         print("teenager")
+     elif age_num >= 20 :
+         print("adult")
+     else:
+         print("age can not be negative or zero!")

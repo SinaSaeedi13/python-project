@@ -1,0 +1,16 @@
+def Ex1_3(side1,side2):
+     '''
+     (int,int) ---> int
+write 2 numbers the first one will be side 1 and the second one will be side 2 of our tringle
+with this function , we can get the maximum length of the third side
+note : the sides must be positive and integers
+      '''
+     Max_of_side3=(side1+side2)-1
+     if type(side1) != int:
+         print("side 1 must be an integer")
+     elif type(side2) != int:
+         print("side 2 must be an integer")
+     elif side1 or side2 <= 0:
+         print("the length of tringle's side must be positive")
+     else:
+         return Max_of_side3

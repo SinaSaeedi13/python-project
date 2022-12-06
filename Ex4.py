@@ -1,5 +1,4 @@
 #Sina Saeedi,,, 4012061020
-#incomplete , will be edited soon
 
 Letter_up=['A','B','C','D','E','F','G','H']
 Letter_down=['a','b','c','d','e','f','g','h']
